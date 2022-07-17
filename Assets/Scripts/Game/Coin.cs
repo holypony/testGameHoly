@@ -8,6 +8,7 @@ public class Coin : MonoBehaviour
 
     private void OnEnable()
     {
+        gameObject.tag = "Coin";
         CancelInvoke("LifeRoutine");
         Invoke("LifeRoutine", 5f);
     }

@@ -31,7 +31,7 @@ public class Loader : MonoBehaviour
             if (spawner == null)
             {
 
-                Instantiate(bundle.LoadAsset("Scene2"), transform.position, Quaternion.identity, gameObject.transform);
+                Instantiate(bundle.LoadAsset("Ground"), transform.position, Quaternion.identity, gameObject.transform);
 
             }
 
