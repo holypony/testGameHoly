@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 3532672211
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: prod2
+      Dependencies: {}
